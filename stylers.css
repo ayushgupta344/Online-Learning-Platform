@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #023e8a;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.course {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.course h3 {
+    margin: 0 0 10px;
+    color: #023e8a;
+}
+.course p {
+    margin: 10px 0;
+    color: #555;
+}
+.course button {
+    background: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.course button:hover {
+    background: #023e8a;
+}
+.testimonials {
+    margin: 40px 0;
+}
+.testimonial {
+    background: #fff;
+    border-left: 5px solid #0077b6;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    background: #0077b6;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
